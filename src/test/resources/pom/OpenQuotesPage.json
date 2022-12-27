@@ -1,0 +1,11 @@
+{"orList":[
+{"name":"openQuotesCard","locType":"XPATH","locValue":"//mat-card","waitInSec":50},
+{"name":"deleteIconFirstQuote","locType":"XPATH","locValue":"(//mat-card)[1]/div","waitInSec":50},
+{"name":"deleteWarningMsg","locType":"XPATH","locValue":"(//mat-card)[1]/div/div/span","waitInSec":50},
+{"name":"deleteCancelBtn","locType":"XPATH","locValue":"((//mat-card)[1]/div/div/button)[2]","waitInSec":50},
+{"name":"deleteConfirmBtn","locType":"XPATH","locValue":"((//mat-card)[1]/div/div/button)[1]","waitInSec":50},
+{"name":"quoteWithDataIndex","locType":"XPATH","locValue":"//mat-card[@data-index='<REPL>']","waitInSec":50},
+{"name":"addNewQuote","locType":"XPATH","locValue":"//span[text()='New Quote']","waitInSec":50},
+{"name":"txtSearch","locType":"XPATH","locValue":"//input[contains(@class,'input-element')]","waitInSec":50}
+
+]}

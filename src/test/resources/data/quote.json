@@ -1,0 +1,63 @@
+{
+  "template" : "Yacht",
+  "quoteCreateDate" : "BR__getCurrentDate",
+  "policyDates" : {
+    "startDate" : "02/12/2022",
+    "endDate" : "02/12/2023",
+    "isConfirmed" : true
+  },
+  "memberDetails" : {
+    "isComfirmed" : true
+  },
+  "vessels" : {
+    "vesselList" : [ {
+      "vesselDetail" : {
+        "name" : "BR__getTextWithTs__Vessel",
+        "imo" : "BR__getIntegerwithinRange__100000__999999",
+        "refNo" : "BR__getIntegerwithinRange__10000__300000",
+        "loa" : "BR__getIntegerwithinRange__1__10",
+        "submarine" : "BR__getStringFromList__Yes__No",
+        "distinctiveNo" : "BR__getIntegerwithinRange__1__5",
+        "yearBuild" : "BR__getIntegerwithinRange__1800__2022"
+      },
+      "vesselPricingDetail" : {
+        "usage" : "Private pleasure only",
+        "gt" : "BR__getIntegerwithinRange__300__3000",
+        "flag" : "BR__getStringFromList__ALBANIA__CHINA__AFGANISTAN__CANADA",
+        "crew" : "BR__getIntegerwithinRange__10__50",
+        "usaRegistered" : "BR__getStringFromList__Yes__No",
+        "navigationAreas" : [ "Worldwide" ],
+        "waterSports" : "BR__getStringFromList__Yes__No",
+        "racing" : "BR__getStringFromList__Yes__No",
+        "currency" : "EUR"
+      }
+    }, {
+      "vesselDetail" : {
+        "name" : "BR__getTextWithTs__Vessel",
+        "imo" : "imo235",
+        "refNo" : "ref23423",
+        "loa" : "BR__getIntegerwithinRange__1__10",
+        "submarine" : "No",
+        "distinctiveNo" : "BR__getIntegerwithinRange__1__5",
+        "yearBuild" : "1800"
+      },
+      "vesselPricingDetail" : {
+        "usage" : "Chartering",
+        "gt" : "BR__getIntegerwithinRange__100__1000",
+        "flag" : "INDIA",
+        "crew" : "BR__getIntegerwithinRange__5__50",
+        "usaRegistered" : "Yes",
+        "navigationAreas" : [ "Worldwide" ],
+        "waterSports" : "Yes",
+        "racing" : "Yes",
+        "currency" : "EUR"
+      }
+    } ]
+  },
+  "instalment" : {
+    "percentage" : "Yearly"
+  },
+  "priceSection" : {
+    "totalGrossPremium" : "12000"
+  }
+}

@@ -1,0 +1,57 @@
+{"orList":[
+{"name":"txtNewQuoteHeader","locType":"XPATH","locValue":"//pandi-enquiry-dialog-header-bar//span[@id='header-text']","waitInSec":50},
+{"name":"quoteTemplate","locType":"XPATH","locValue":"//pandi-enquiry-dialog-header-bar//span[@class='mat-subheading-2']","waitInSec":50},
+{"name":"quoteCreateDate","locType":"XPATH","locValue":"//pandi-enquiry-dialog-header-bar//span[contains(text(),'Date')]","waitInSec":50},
+{"name":"closeButton","locType":"XPATH","locValue":"//span[text()='Close']","waitInSec":50},
+{"name":"closeConfirmButton","locType":"XPATH","locValue":"//span[@class='mat-button-wrapper' and text()='Yes']","waitInSec":50},
+{"name":"saveButton","locType":"XPATH","locValue":"//span[contains(text(),'Save')]","waitInSec":50},
+{"name":"bindButton","locType":"XPATH","locValue":"//span[contains(text(),'Bind')]","waitInSec":50},
+{"name":"acceptAndBindButton","locType":"XPATH","locValue":"//span[contains(text(),'Accept & Bind')]","waitInSec":50},
+{"name":"bindQuoteButton","locType":"XPATH","locValue":"//span[contains(text(),'Bind Quote')]","waitInSec":50},
+{"name":"cancelButton","locType":"XPATH","locValue":"//span[contains(text(),'Cancel')]","waitInSec":50},
+{"name":"referButton","locType":"XPATH","locValue":"//span[contains(text(),'Refer')]","waitInSec":50},
+{"name":"expandSection","locType":"XPATH","locValue":"//mat-expansion-panel-header//span[contains(@class,'pandi-icon-chevron-circle-close-dark')]","waitInSec":50},
+
+{"name":"calendar","locType":"XPATH","locValue":"//pandi-datepicker//span[contains(@class,'pandi-icon pandi-icon-calendar')]","waitInSec":50},
+{"name":"calendarYearList","locType":"XPATH","locValue":"//div[@class='mat-calendar-controls']/button[1]","waitInSec":50},
+{"name":"policyDatesCheckBox","locType":"XPATH","locValue":"//pandi-enquiry-new-date//mat-checkbox","waitInSec":50},
+
+{"name":"memberDetailsCheckBox","locType":"XPATH","locValue":"//pandi-enquiry-member//mat-checkbox","waitInSec":50},
+
+{"name":"addAdditionalVessel","locType":"XPATH","locValue":"//button[contains(@class,'add-vessel btn')]","waitInSec":50},
+{"name":"vesselName","locType":"XPATH","locValue":"//input[@formcontrolname='vesselName']","waitInSec":50},
+{"name":"vesselImo","locType":"XPATH","locValue":"//input[@formcontrolname='imoNumber']","waitInSec":50},
+{"name":"vesselRefNo","locType":"XPATH","locValue":"//input[@formcontrolname='vesselRef']","waitInSec":50},
+{"name":"vesselLoa","locType":"XPATH","locValue":"//input[@formcontrolname='loa']","waitInSec":50},
+{"name":"vesselSubmarine","locType":"XPATH","locValue":"//mat-select[@formcontrolname='isOperatingSubmarine']","waitInSec":50},
+{"name":"vesselDistinctiveNo","locType":"XPATH","locValue":"//input[@formcontrolname='distinctiveNumbers']","waitInSec":50},
+{"name":"vesselYearBuild","locType":"XPATH","locValue":"//input[@formcontrolname='yearBuilt']","waitInSec":50},
+
+{"name":"vesselUsage","locType":"XPATH","locValue":"//mat-select[@formcontrolname='usage']","waitInSec":50},
+{"name":"vesselGt","locType":"XPATH","locValue":"//input[@formcontrolname='vesselGT']","waitInSec":50},
+{"name":"vesselFlag","locType":"XPATH","locValue":"//mat-select[@formcontrolname='vesselFlag']","waitInSec":50},
+{"name":"vesselCrew","locType":"XPATH","locValue":"//input[@formcontrolname='numberOfCrew']","waitInSec":50},
+{"name":"vesselUsaRegistered","locType":"XPATH","locValue":"//mat-select[@formcontrolname='isAnyUSAResidents']","waitInSec":50},
+{"name":"navigationAreasExpand","locType":"XPATH","locValue":"//span[contains(text(), 'Navigation Areas')]//following-sibling::span","waitInSec":50},
+{"name":"navigationAreaWorldwide","locType":"XPATH","locValue":"//pandi-enquiry-custom-selector[@title='Navigation Areas']/div//span[text() ='Worldwide']","waitInSec":50},
+{"name":"navigationAreaWorldwideWithMonthInUsaWaters","locType":"XPATH","locValue":"//pandi-enquiry-custom-selector[@title='Navigation Areas']/div//span[text() ='Worldwide with up to one month in USA waters']","waitInSec":50},
+{"name":"navigationAreaAfrica","locType":"XPATH","locValue":"//pandi-enquiry-custom-selector[@title='Navigation Areas']/div//span[text() ='Africa']","waitInSec":50},
+{"name":"navigationAreaAsia","locType":"XPATH","locValue":"//pandi-enquiry-custom-selector[@title='Navigation Areas']/div//span[text() ='Asia']","waitInSec":50},
+{"name":"navigationAreaAustralasia","locType":"XPATH","locValue":"//pandi-enquiry-custom-selector[@title='Navigation Areas']/div//span[text() ='Australasia']","waitInSec":50},
+{"name":"navigationAreaCanada","locType":"XPATH","locValue":"//pandi-enquiry-custom-selector[@title='Navigation Areas']/div//span[text() ='Canada']","waitInSec":50},
+{"name":"navigationAreaCaribbean","locType":"XPATH","locValue":"//pandi-enquiry-custom-selector[@title='Navigation Areas']/div//span[text() ='Caribbean']","waitInSec":50},
+{"name":"navigationAreaEurope","locType":"XPATH","locValue":"//pandi-enquiry-custom-selector[@title='Navigation Areas']/div//span[text() ='Europe']","waitInSec":50},
+{"name":"navigationAreaMiddleEast","locType":"XPATH","locValue":"//pandi-enquiry-custom-selector[@title='Navigation Areas']/div//span[text() ='Middle East']","waitInSec":50},
+{"name":"navigationAreaSouthAndCentralAmerica","locType":"XPATH","locValue":"//pandi-enquiry-custom-selector[@title='Navigation Areas']/div//span[text() ='South and Central America (excluding US waters)']","waitInSec":50},
+{"name":"navigationAreaUSANoTimeRestriction","locType":"XPATH","locValue":"//pandi-enquiry-custom-selector[@title='Navigation Areas']/div//span[text() ='USA (no time restriction)']","waitInSec":50},
+{"name":"navigationAreaUSAOneMonth","locType":"XPATH","locValue":"//pandi-enquiry-custom-selector[@title='Navigation Areas']/div//span[text() ='USA for up to one month per year']","waitInSec":50},
+{"name":"waterSports","locType":"XPATH","locValue":"//mat-select[@formcontrolname='isWatersports']","waitInSec":50},
+{"name":"racing","locType":"XPATH","locValue":"//mat-select[@formcontrolname='racing']","waitInSec":50},
+{"name":"currency","locType":"XPATH","locValue":"//mat-select[@formcontrolname='currency']","waitInSec":50},
+{"name":"addCoverButton","locType":"XPATH","locValue":"//a[@class='pandi-icon pandi-icon-add']","waitInSec":50},
+
+{"name":"instalmentPattern","locType":"XPATH","locValue":"//mat-select[@formcontrolname='instalmentPattern']","waitInSec":50},
+
+{"name":"totalGrossPremiumWidget","locType":"XPATH","locValue":"//pandi-enquiry-total-gross-premium/div/div/h3","waitInSec":50}
+
+]}

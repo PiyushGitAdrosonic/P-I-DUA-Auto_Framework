@@ -1,0 +1,31 @@
+{"orList":[
+
+{"name":"btnMembersLib","locType":"XPATH","locValue":"//span[text()='Members']","waitInSec":50},
+{"name":"btnVesselsLib","locType":"XPATH","locValue":"//span[contains(text(),'Vessels')]","waitInSec":50},
+{"name":"btnPoliciesLib","locType":"XPATH","locValue":"//span[contains(text(),'Policies')]","waitInSec":50},
+
+{"name":"btnSideToggle","locType":"XPATH","locValue":"//button[contains(@class,'sidenav-toggle')]","waitInSec":50},
+{"name":"btnSideNavDashboard","locType":"XPATH","locValue":"//mat-sidenav-container[contains(@class,'sidenav-container')]//span[text()='Dashboard']","waitInSec":50},
+{"name":"btnSideNavOpenQuotes","locType":"XPATH","locValue":"//mat-sidenav-container[contains(@class,'sidenav-container')]//span[text()='Open Quotes']","waitInSec":50},
+
+{"name":"widgetCardholder","locType":"XPATH","locValue":"//div[contains(@class,'m-0 ng-star-inserted')]","waitInSec":50},
+{"name":"widgetRenewalsSummary","locType":"XPATH","locValue":"//h3[text()='Renewals Summary']","waitInSec":50},
+{"name":"widgetRecentQuotes","locType":"XPATH","locValue":"//div[(text() = 'Recent Quotes')]//ancestor::mat-card-content","waitInSec":50},
+{"name":"widgetCardholderStatements","locType":"XPATH","locValue":"//h3[text()='Coverholder Statements']","waitInSec":50},
+{"name":"widgetContacts","locType":"XPATH","locValue":"//h3[contains(@class,'contacts-heading')]","waitInSec":50},
+{"name":"widgetLrlc","locType":"XPATH","locValue":"//h3[text()='Loss Ratio & Claims Summary']","waitInSec":50},
+
+{"name":"btnContinuePI","locType":"XPATH","locValue":"//span[contains(text(),'Using P&I Online')]","waitInSec":50},
+{"name":"btnKnowledgeBase","locType":"XPATH","locValue":"//a[contains(@href,'knowledge')]","waitInSec":50},
+{"name":"btnFAQ","locType":"XPATH","locValue":"//span[contains(text(),'Read the FAQs')]","waitInSec":50},
+{"name":"btnReportAProblem","locType":"XPATH","locValue":"//span[contains(text(),'Report a Problem')]","waitInSec":50},
+{"name":"btnTnC","locType":"XPATH","locValue":"//span[contains(text(),'Terms & Conditions')]","waitInSec":50},
+{"name":"btnNeedHelp","locType":"XPATH","locValue":"//span[contains(text(),'Need help')]","waitInSec":50},
+
+{"name":"lblLoginUser","locType":"XPATH","locValue":"//span[@class='pandi-profile-name pl-2']","waitInSec":50},
+{"name":"btnSignOut","locType":"XPATH","locValue":"//span[contains(@class,'pandi-signout')]","waitInSec":50},
+{"name":"pniVersion","locType":"XPATH","locValue":"//span[contains(@class,'pandi-version')]","waitInSec":50},
+{"name":"btnSignOutNow","locType":"XPATH","locValue":"//span[text()='Sign out now']","waitInSec":50},
+{"name":"btnUsingPIOnline","locType":"XPATH","locValue":"//span[contains(text(),'Continue using P&I Online')]","waitInSec":50}
+
+]}

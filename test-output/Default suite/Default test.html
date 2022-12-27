@@ -1,0 +1,136 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>2/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Dec 23 17:51:15 IST 2022</td>
+</tr>
+<tr><td>Total time:</td><td>240 seconds (240217 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='scripts.PolicyLibraryTest.verifyBrokerPolicyLibraryDetails()'><b>verifyBrokerPolicyLibraryDetails</b><br>Test class: scripts.PolicyLibraryTest<br>Test method: To verify Policy Broker details in Policy Library<br/>
+<a href="#Output-1583210428" onClick='toggleBox("Output-1583210428", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1583210428" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1583210428">
+ERROR: [Page Object Model is generated for Login Page.] [java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, String)" because "testLog" is null]<br/>
+ERROR: [Login process started] [java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, String)" because "testLog" is null]<br/>
+ERROR: [Entered user credential to login] [java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, String)" because "testLog" is null]<br/>
+ERROR: [[btnSignin] is clicked] [java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, String)" because "testLog" is null]<br/>
+ERROR: [Login process is completed with user [duatest1@outlook.com]] [java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, String)" because "testLog" is null]<br/>
+ERROR: [verifyLoginPageTitle process started] [java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, String)" because "testLog" is null]<br/>
+ERROR: [logout successful] [java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, String)" because "testLog" is null]<br/>
+ERROR: [verifyLoginPageTitle process ended] [java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, String)" because "testLog" is null]<br/>
+ERROR: [Page Object Model is generated for dashboard] [java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, String)" because "testLog" is null]<br/>
+ERROR: [User [Bas van Zalingen] login successfully] [java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, String)" because "testLog" is null]<br/>
+ERROR: [Click on to the Policy Library button.] [java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, String)" because "testLog" is null]<br/>
+ERROR: [[btnPoliciesLib] is clicked] [java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, String)" because "testLog" is null]<br/>
+ERROR: [Clicking policy library button process ended] [java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, String)" because "testLog" is null]<br/>
+ERROR: [Page Object Model is generated for Policy Library Page.] [java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, String)" because "testLog" is null]<br/>
+ERROR: [Policy header page :-  [Library] is visible successfully] [java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, String)" because "testLog" is null]<br/>
+ERROR: [Policy Table Headers process started] [java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, String)" because "testLog" is null]<br/>
+ERROR: [[PolicyColumn] is not available on the page] [java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, String)" because "testLog" is null]<br/>
+ERROR: [Skipping further steps in validatePolicyTableHeaders process as previous step is failed] [java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, String)" because "testLog" is null]<br/>
+ERROR: [Policy Table Headers validation ended] [java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, String)" because "testLog" is null]<br/>
+</div>
+</td>
+<td></td>
+<td>208</td>
+<td>scripts.PolicyLibraryTest@565f390</td></tr>
+<tr>
+<td title='scripts.PolicyLibraryTest.verifyPolicyDetailsInPolicyLibrary()'><b>verifyPolicyDetailsInPolicyLibrary</b><br>Test class: scripts.PolicyLibraryTest<br>Test method: To verify Policy Summary, Policy Financials and Instalment Pattern in Policy Library<br/>
+<a href="#Output-1961138094" onClick='toggleBox("Output-1961138094", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1961138094" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1961138094">
+ERROR: [Page Object Model is generated for Login Page.] [java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, String)" because "testLog" is null]<br/>
+ERROR: [Login process started] [java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, String)" because "testLog" is null]<br/>
+ERROR: [Entered user credential to login] [java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, String)" because "testLog" is null]<br/>
+ERROR: [[btnSignin] is clicked] [java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, String)" because "testLog" is null]<br/>
+ERROR: [Login process is completed with user [duatest1@outlook.com]] [java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, String)" because "testLog" is null]<br/>
+ERROR: [Page Object Model is generated for dashboard] [java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, String)" because "testLog" is null]<br/>
+ERROR: [User [Bas van Zalingen] login successfully] [java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, String)" because "testLog" is null]<br/>
+ERROR: [Click on to the Policy Library button.] [java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, String)" because "testLog" is null]<br/>
+ERROR: [[btnPoliciesLib] is clicked] [java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, String)" because "testLog" is null]<br/>
+ERROR: [Clicking policy library button process ended] [java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, String)" because "testLog" is null]<br/>
+ERROR: [Page Object Model is generated for Policy Library Page.] [java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, String)" because "testLog" is null]<br/>
+ERROR: [Policy header page :-  [Library] is visible successfully] [java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, String)" because "testLog" is null]<br/>
+ERROR: [Closing process started] [java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, String)" because "testLog" is null]<br/>
+ERROR: [[ClosePolicyWindow] is clicked] [java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, String)" because "testLog" is null]<br/>
+ERROR: [Closing process ended] [java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, String)" because "testLog" is null]<br/>
+</div>
+</td>
+<td></td>
+<td>32</td>
+<td>scripts.PolicyLibraryTest@565f390</td></tr>
+</table><p>
+</body>
+</html>

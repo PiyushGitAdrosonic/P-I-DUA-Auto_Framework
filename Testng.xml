@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="PNI_SmokeSuite">
+	<listeners>
+		<listener
+			class-name="com.as.autot.core.listener.TestngListener" />
+	</listeners>
+	<test thread-count="6" name="Test" parallel="methods">
+
+		<classes>
+			<class name="scripts.PolicyLibraryTest" />
+		</classes>
+	</test>
+</suite>

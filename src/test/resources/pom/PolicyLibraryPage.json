@@ -1,0 +1,25 @@
+{"orList":[
+{"name":"PolicyPageheader","locType":"XPATH","elementType":"h2","locValue":"//h2[contains(@class,'mat-title mat-primary')]","waitInSec":50},
+{"name":"PoliciesBtn","locType":"XPATH","elementType":"div","locValue":"//div[contains(@class,'pandi-selection-switcher')]//div/button[3]","waitInSec":50},
+{"name":"LibraryContentBTNS","locType":"XPATH","elementType":"div","locValue":"//div[contains(@class,'pandi-selection-switcher')]//div//button","waitInSec":50},
+{"name":"SearchPolicies","locType":"XPATH","elementType":"input","locValue":"//input[@data-placeholder='Search \"Policies\"']","waitInSec":50},
+{"name":"ClosePolicyWindow","locType":"XPATH","elementType":"span","locValue":"//span[@class='mat-title text-link']","waitInSec":50},
+{"name":"PolicyColumn","locType":"XPATH","locValue":"//div[contains(@class,'pandi-data-table-scroll')]/following::table//th[3]/child::div/child::div[1]","waitInSec":50},
+{"name":"MemberColumn","locType":"XPATH","locValue":"//div[contains(@class,'pandi-data-table-scroll')]/following::table//th[4]/child::div/child::div[1]","waitInSec":50},
+{"name":"PolicyStartColumn","locType":"XPATH","locValue":"//div[contains(@class,'pandi-data-table-scroll')]/following::table//th[5]/child::div/child::div[1]","waitInSec":50},
+{"name":"PolicyEndColumn","locType":"XPATH","locValue":"//div[contains(@class,'pandi-data-table-scroll')]/following::table//th[6]/child::div/child::div[1]","waitInSec":50},
+{"name":"PolicyStatusColumn","locType":"XPATH","locValue":"//div[contains(@class,'pandi-data-table-scroll')]/following::table//th[7]/child::div/child::div[1]","waitInSec":50},
+{"name":"NoOfRiskColumn","locType":"XPATH","locValue":"//div[contains(@class,'pandi-data-table-scroll')]/following::table//th[8]/child::div/child::div[1]","waitInSec":50},
+
+{"name":"TotalRows","locType":"XPATH","locValue":"//pandi-policy-data-table//pandi-data-table//following::tbody//tr","waitInSec":50},
+{"name":"PolicyRefNo","locType":"XPATH","locValue":"//pandi-policy-data-table//pandi-data-table//following::tbody//tr[<REPL>]/child::td[3]//span","waitInSec":50},
+{"name":"PolicyMemberName","locType":"XPATH","locValue":"//pandi-policy-data-table//pandi-data-table//following::tbody//tr[<REPL>]/child::td[4]//span","waitInSec":50},
+{"name":"PolicyMemberRefNo","locType":"XPATH","locValue":"//pandi-policy-data-table//pandi-data-table//following::tbody//tr[<REPL>]/child::td[4]//pandi-name-reference/parent::div","waitInSec":50},
+{"name":"PolicyStartDate","locType":"XPATH","locValue":"//pandi-policy-data-table//pandi-data-table//following::tbody//tr[<REPL>]/child::td[5]//span","waitInSec":50},
+{"name":"PolicyEndDate","locType":"XPATH","locValue":"//pandi-policy-data-table//pandi-data-table//following::tbody//tr[<REPL>]/child::td[6]//span","waitInSec":50},
+{"name":"PolicyStatus","locType":"XPATH","locValue":"//pandi-policy-data-table//pandi-data-table//following::tbody//tr[<REPL>]/child::td[7]//span","waitInSec":50},
+{"name":"NoOfRiskAttached","locType":"XPATH","locValue":"//pandi-policy-data-table//pandi-data-table//following::tbody//tr[<REPL>]/child::td[8]//span","waitInSec":50}
+
+
+
+]}

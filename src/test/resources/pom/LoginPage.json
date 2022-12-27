@@ -1,0 +1,8 @@
+{"orList":[
+{"name":"txtEmailID","locType":"ID","locValue":"signInName","text":"Note12","elementType":"input","props":["title:Portal","prop2:val2"],"waitInSec":50},
+{"name":"txtPassword","locType":"ID","locValue":"password","text":"Note23","elementType":"input","props":["placeholder:password"],"waitInSec":0},
+{"name":"btnSignin","locType":"ID","locValue":"next","text":"Sign in","elementType":"submit","props":[],"waitInSec":0},
+{"name":"errorPageLevel","locType":"XPATH","locValue":"//*[@class='error pageLevel']","text":"aria-hidden","elementType":"div","props":["IncorrectPWD:Incorrect Password.","IncorrectEmail:Incorrect Email Address.","EmptyEmail:Please enter your Email Address", "EmptyPWD:"],"waitInSec":3},
+{"name":"errorNoPassword","locType":"XPATH","locValue":"//*[contains(text(),'Please enter your password')]//parent::div","text":"Please enter your password","elementType":"div","props":["aria-hidden:false"],"waitInSec":3},
+{"name":"lblIncorrectPasswordMsg","locType":"XPATH","locValue":"//p[text()='Incorrect Password.']","waitInSec":50}
+]}
